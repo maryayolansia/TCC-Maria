@@ -21,7 +21,7 @@
  
                             $id_siswa   = $_GET['id_siswa'];
  
-                            $lihat      = mysqli_query($conn, "SELECT * FROM data_siswa WHERE id_siswa = '$id_siswa'");
+                            $lihat      = mysqli_query($conn, "SELECT * FROM data_siswa WHERE id_siswa = $id_siswa");
                             if (mysqli_num_rows($lihat) == 0) {
                                 echo '<tr><td colspan="6"><center>Data Kosong!!!</center></td></tr>';
                             }else{

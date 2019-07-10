@@ -22,6 +22,10 @@
                         <div class="panel-body">
                             <form action="proses_tambah.php" method="POST" class="form">
                                 <div class="form-group">
+                                    <label class="title">ID Siswa</label>
+                                    <input type="text" name="id_siswa" class="form-control" placeholder="ID Siswa">
+                                </div>
+                                <div class="form-group">
                                     <label class="title">Nama Siswa</label>
                                     <input type="text" name="nama_siswa" class="form-control" placeholder="Nama Siswa">
                                 </div>
