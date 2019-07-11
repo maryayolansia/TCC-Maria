@@ -39,10 +39,6 @@
                                     <input type="text" name="nama_siswa" class="form-control" value="<?php echo $data['nama_siswa']?>">
                                 </div>
                                 <div class="form-group">
-                                    <label class="title">NIS Siswa</label>
-                                    <input type="number" name="nis_siswa" class="form-control" value="<?php echo $data['nis_siswa']?>">
-                                </div>
-                                <div class="form-group">
                                     <label class="title">Alamat Siswa</label>
                                     <textarea type="text" name="alamat_siswa" class="form-control"><?php echo $data['alamat_siswa']?></textarea>
                                 </div>
