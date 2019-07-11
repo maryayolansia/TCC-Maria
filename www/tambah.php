@@ -30,10 +30,6 @@
                                     <input type="text" name="nama_siswa" class="form-control" placeholder="Nama Siswa">
                                 </div>
                                 <div class="form-group">
-                                    <label class="title">NIS Siswa</label>
-                                    <input type="number" name="nis_siswa" class="form-control" placeholder="NIS Siswa">
-                                </div>
-                                <div class="form-group">
                                     <label class="title">Alamat Siswa</label>
                                     <textarea type="text" name="alamat_siswa" class="form-control"></textarea>
                                 </div>
