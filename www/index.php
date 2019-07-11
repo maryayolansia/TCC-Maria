@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>CRUD PHP MYSQL</title>
+    <title>Responsi TCC Maria</title>
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
     <script type="text/javascript" src="assets/js/bootstrap.js"></script>
 </head>
@@ -26,7 +26,6 @@
                                     <tr>
                                         <th>No</th>
                                         <th>Nama Siswa</th>
-                                        <th>NIS</th>
                                         <th>Alamat</th>
                                         <th>No Telepon</th>
                                         <th>Opsi</th>
@@ -46,7 +45,6 @@
                                     <tr>
                                         <td><?php echo $no;?></td>
                                         <td><?php echo $data['nama_siswa']?></td>
-                                        <td><?php echo $data['nis_siswa']?></td>
                                         <td><?php echo $data['alamat_siswa']?></td>
                                         <td><?php echo $data['notelp_siswa']?></td>
                                         <td>
